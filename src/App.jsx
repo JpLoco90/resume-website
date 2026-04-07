@@ -142,7 +142,7 @@ function App() {
             }}
           >
             <img
-              src="/profile.png"
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Jose Bianchi"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               onError={(e) => {
